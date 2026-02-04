@@ -1,6 +1,10 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:static"
   publish = "dist/angular/browser"
+
+# Skip the Angular SSR runtime plugin
+[build.environment]
+  NETLIFY_ANGULAR_SSR = "false"
 
 [[redirects]]
   from = "/*"
