@@ -34,9 +34,19 @@ import { RouterOutlet, RouterLink } from '@angular/router';
       </main>
 
       <!-- Footer -->
-      <footer class="bg-gray-800 text-gray-400 text-center py-4 mt-8">
+      <footer class="bg-gray-800 text-gray-400 text-center py-4">
         <p>Angular Features Showcase - Feature Updates</p>
-        <p class="text-sm mt-1">Built with Angular {{ angularVersion }}</p>
+        <p class="text-sm mt-2">
+          Powered by
+          <a
+            href="https://gunapalani.github.io/"
+            target="_blank"
+            rel="noopener"
+            class="text-purple-400 hover:text-purple-300 underline"
+          >
+            Gunasekaran Palani
+          </a>
+        </p>
       </footer>
     </div>
   `,
