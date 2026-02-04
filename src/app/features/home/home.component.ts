@@ -19,7 +19,7 @@ interface FeatureCategory {
           Angular Features Showcase
         </h1>
         <p class="text-xl text-purple-200">
-          Complete Interview Preparation Guide: v14 to v21
+          v14 to v21 Feature Updates
         </p>
       </header>
 

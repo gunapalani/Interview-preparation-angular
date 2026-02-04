@@ -14,7 +14,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
               <span class="text-3xl">🅰️</span>
               <div>
                 <h1 class="text-xl font-bold">Angular Features Showcase</h1>
-                <p class="text-sm opacity-80">v14 - v21 Interview Preparation</p>
+                <p class="text-sm opacity-80">v14 - v21 Feature Updates</p>
               </div>
             </a>
             <nav class="hidden md:flex gap-4 text-sm">
@@ -35,7 +35,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
 
       <!-- Footer -->
       <footer class="bg-gray-800 text-gray-400 text-center py-4 mt-8">
-        <p>Angular Features Showcase - Interview Preparation Resource</p>
+        <p>Angular Features Showcase - Feature Updates</p>
         <p class="text-sm mt-1">Built with Angular {{ angularVersion }}</p>
       </footer>
     </div>
