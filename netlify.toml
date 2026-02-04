@@ -2,9 +2,12 @@
   command = "npm run build:static"
   publish = "dist/angular/browser"
 
-# Skip the Angular SSR runtime plugin
-[build.environment]
-  NETLIFY_ANGULAR_SSR = "false"
+# Disable the Angular runtime plugin entirely
+[[plugins]]
+  package = "@netlify/angular-runtime"
+  
+  [plugins.inputs]
+    skip = true
 
 [[redirects]]
   from = "/*"
