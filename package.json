@@ -1,5 +1,5 @@
 {
-  "name": "angular-from-16-to-21-update",
+  "name": "angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-from-16-to-21-update": "node dist/angular-from-16-to-21-update/server/server.mjs"
+    "serve:ssr:angular": "node dist/angular/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,

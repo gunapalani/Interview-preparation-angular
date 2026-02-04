@@ -2,11 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "7c78c064-d5c5-4d9d-bfa4-e0ecc6dd1001"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angular-from-16-to-21-update": {
+    "angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-from-16-to-21-update:build:production"
+              "buildTarget": "angular:build:production"
             },
             "development": {
-              "buildTarget": "angular-from-16-to-21-update:build:development"
+              "buildTarget": "angular:build:development"
             }
           },
           "defaultConfiguration": "development"
